@@ -1,0 +1,53 @@
+.whatIsContent {
+  margin: 50px 60px 0;
+  background-color: #0b597d17;
+  padding: 50px 100px;
+  border-radius: 25px;
+}
+
+.subInfoPills {
+  width: auto;
+  padding: 0 20px;
+  display: flex;
+  flex-direction: column;
+}
+.infoPill {
+  line-height: 1.5rem;
+}
+
+#whatIsTitle {
+  text-align: center;
+  line-height: 70px;
+  font-size: 40px;
+}
+#whatIsSubTitle {
+  text-align: center;
+  line-height: 40px;
+  font-size: 20px;
+}
+
+#whatIsText {
+  line-height: 34px;
+  margin-bottom: 30px;
+  font-size: 19px;
+}
+
+.whatIsButtons {
+  display: flex;
+  justify-content: center;
+  gap: 120px;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 765px) {
+  .whatIsContent {
+    padding: 50px 20px;
+    text-align: center;
+  }
+
+  .whatIsButtons {
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+}
