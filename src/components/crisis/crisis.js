@@ -1,12 +1,12 @@
-import './whatis.css';
+import './crisis.css';
 import Button from '../button/button';
 import { Link } from 'react-router-dom';
 
-function WhatIs() {
+function Crisis() {
   return (
-    <div className="whatIsContent">
-      <h1 id="whatIsTitle">Crisis de Agua en Colombia</h1>
-      <h3 id="whatIsSubTitle">El Estudio Nacional del Agua 2018 evidencia un manejo inadecuado</h3>
+    <div className="crisisContent">
+      <h1 id="crisisTitle">Crisis de Agua en Colombia</h1>
+      <h3 id="crisisSubTitle">El Estudio Nacional del Agua 2018 evidencia un manejo inadecuado</h3>
       <div className="subInfoPills">
         <div className="infoPill">
           <p>
@@ -20,10 +20,10 @@ function WhatIs() {
         </div>
       </div>
       
-      <div className="whatIsButtons">
+      <div className="crisisButtons">
       </div>
     </div>
   );
 }
 
-export default WhatIs;
+export default Crisis;
