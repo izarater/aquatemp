@@ -5,6 +5,7 @@ import Stats from '../components/stats/stats';
 import Footer from '../components/footer/footer';
 import WhatIs from '../components/whatis/whatis';
 import TecIOT from '../components/tecIOT/tecIOT';
+import Fin from '../components/fin/fin';
 import NewProduct from '../components/product/NewProduct'
 
 function Home() {
@@ -14,6 +15,7 @@ function Home() {
       <Main />
       <WhatIs />
       <TecIOT />
+      <Fin />
       <Footer />
     </>
   );

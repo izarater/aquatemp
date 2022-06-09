@@ -11,13 +11,13 @@ function TecIOT() {
           <h2>Tecnología IoT al Servicio de las Comunidades</h2>
           <h3>Un Sistema de Monitoreo En Línea de la Calidad del Agua</h3>
           <p>
-          Teniendo en cuenta la crisis del agua en Colombia y el sexto objetivo de desarrollo sostenible, nace la idea de crear una herramienta de bajo costo que utiliza internet de las cosas para la medición, gestión y control de la calidad del agua en tiempo real.
+          Teniendo en cuenta la crisis del agua en Colombia y el sexto objetivo de desarrollo sostenible, nace la idea de crear una herramienta de bajo costo que utiliza internet de las cosas para la medición, gestión y control de la calidad del agua en tiempo real
           </p> 
         </div>
         <div className="tecIOT-button">
           <Link to="/">
             <Button variant="primary" size="m">
-              Learn more
+               Saber más
             </Button>
           </Link>
         </div>
