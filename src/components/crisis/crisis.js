@@ -19,9 +19,6 @@ function Crisis() {
           </p>
         </div>
       </div>
-      
-      <div className="crisisButtons">
-      </div>
     </div>
   );
 }

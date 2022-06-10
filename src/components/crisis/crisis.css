@@ -32,7 +32,8 @@
 }
 
 .infoPill {
-  line-height: 1.5rem;
+  margin: 10px 20px;
+  text-align: justify;
 }
 
 #crisisTitle {
@@ -75,7 +76,7 @@
   .subInfoPills {
     display: flex;
     justify-content: space-around;    
-    flex-direction: row;
+    flex-direction: row; 
   }
 
   .infoPill {
