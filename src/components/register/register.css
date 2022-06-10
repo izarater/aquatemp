@@ -1,9 +1,9 @@
 .register {
   height: 100vh;
-  background: url('../../assets/reground.jpg');
+  background: url('../../assets/pic19.jpg');
   background-size: 100%;
 }
-.container {
+.container2 {
   display: flex !important;
   flex-direction: column;
   justify-content: center;
@@ -11,13 +11,13 @@
   height: center;
   margin: auto;
 }
-.container > form {
+.container2 > form {
   text-align-last: center;
   width: 20%;
   padding: 50px;
   border-radius: 5px;
   background: rgba(255, 255, 255, 0.6);
-  margin-top: 25px;
+  margin-top:0cm;
 }
 pre {
   width: 70%;
@@ -28,7 +28,6 @@ pre {
 /*button {
   background: #0563b4 !important;
 }
-
 p {
   color: red
 }
@@ -58,4 +57,5 @@ label {
 
 .regtitle {
   color: rgb(37, 16, 16);
+  text-align: center;
 }

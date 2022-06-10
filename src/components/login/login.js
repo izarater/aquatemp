@@ -105,7 +105,7 @@ function Login() {
             <br/>
             <br/>
             <div class="form-button">
-                  <Button variant="quaternary">Submit</Button>
+                  <Button variant="primary">Submit</Button>
             </div>
           </div>
         </form>

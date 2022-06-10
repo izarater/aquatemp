@@ -1,6 +1,6 @@
 .login {
     height: 100vh;
-    background: url('../../assets/reground.jpg');
+    background: url('../../assets/pic19.jpg');
     background-size: 100%;
   }
   .container {
@@ -9,7 +9,6 @@
     justify-content: center;
     align-items: center;
     height: center;
-    margin: auto;
   }
   .container > form {
     text-align-last: center;
@@ -17,7 +16,7 @@
     padding: 50px;
     border-radius: 5px;
     background: rgba(255, 255, 255, 0.6);
-    margin-top: 25px;
+    margin-top: 1cm;
   }
   pre {
     width: 70%;
