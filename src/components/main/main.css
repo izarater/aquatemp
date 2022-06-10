@@ -3,7 +3,7 @@
   height: 25rem;
   background: url('../../assets/pic18.jpg');
   background-position: center;
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
 }
 .main > .title {
@@ -35,26 +35,47 @@
   }
   .main > .title {
     width: 40%;
-    padding: 1rem 3rem 0 2rem;
+    padding: 1rem 3rem 0 3rem;
   }
   .description {
-    padding-right: 3rem;
+    padding-left: 0rem;
   }
 }
 
 @media screen and (min-width: 48rem) {
   .main {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
     height: 25rem;
     background: url('../../assets/pic18.jpg');
-    background-size: cover;
+    background-size: 100vw 68vh;
     background-repeat: no-repeat;
+    
   }
-  .main > .title {
-    width: 30%;
-    margin: 0;
-    padding: 2rem 3rem 1rem 2rem;
+
+  .description {
+    width: 583px;
+    height: 90px;
+    left: 179px;
+    top: 351px;
+    
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 150%;
+    margin-left: 12%;
+    margin-top: 3%;
+  }
+
+  .logo {
+    width: 251.42px;
+    height: 245px;
+    margin-right: 12.5%;
+    background: url('../../assets/LogoAquality.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-radius: 100%;
   }
 }
