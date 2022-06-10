@@ -37,15 +37,15 @@
 
 #uneteTitle {
   text-align: center;
-  line-height: 70px;
-  font-size: 40px;
-  color: #068C94;
+  font-size: 2rem;
+  line-height: 2.4rem;
+  color: #0B597D;
 }
 #uneteSubTitle {
   text-align: center;
   line-height: 40px;
   font-size: 20px;
-  color: #0B597D;
+  color: #747474;;
 }
 
 #uneteText {
@@ -60,10 +60,30 @@
   gap: 120px;
 }
 
-@media only screen and (min-device-width: 320px) and (max-device-width: 765px) {
+@media only screen and (min-device-width: 40rem) {
+
   .uneteContent {
-    padding: 50px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 3rem 0 6rem;
   }
+
+  #uneteTitle {
+    text-align: center;
+    font-size: 2rem;
+    line-height: 2.4rem;
+    color: #0B597D;
+  }
+
+  #uneteSubTitle {
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px;
+    color: #747474;;
+  }
+
 
   .uneteButtons {
     justify-content: center;
@@ -72,14 +92,16 @@
     gap: 20px;
   }
 
-  .subInfoPills {
+  .subUneteContent {
     display: flex;
     justify-content: space-around;    
     flex-direction: row;
   }
 
-  .infoPill {
-    margin: 10px 20px;
-    text-align: left;
+  #email{
+    height: 2rem;
+    width: 22rem;
+    margin-right: 2rem;
   }
+
 }
