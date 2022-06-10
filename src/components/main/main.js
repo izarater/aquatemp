@@ -8,7 +8,8 @@ function Main() {
      //Da el siguiente. Monitorea en línea una fuente hídrica.
     <main className="main">
       <h2 className="description">
-        Mi loco eso ta jevi, pero no te pregunté.
+        Un primer paso para el agua limpia en Colombia. <br></br>
+        Da el siguiente. Monitorea en línea una fuente hídrica.
       </h2>
       <div className="logo"></div>
     </main>
