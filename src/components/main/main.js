@@ -10,8 +10,9 @@ function Main() {
       <h2 className="description">
         Mi loco eso ta jevi, pero no te pregunté.
       </h2>
+      <div className="logo"></div>
     </main>
   );
-}
+  }
 
 export default Main;

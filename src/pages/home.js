@@ -5,6 +5,7 @@ import Stats from '../components/stats/stats';
 import Footer from '../components/footer/footer';
 import Crisis from '../components/crisis/crisis';
 import TecIOT from '../components/tecIOT/tecIOT';
+import Unete from '../components/unete/unete';
 import Fin from '../components/fin/fin';
 import NewProduct from '../components/product/NewProduct'
 
@@ -16,6 +17,7 @@ function Home() {
       <Crisis />
       <TecIOT />
       <Fin />
+      <Unete />
       <Footer />
     </>
   );
