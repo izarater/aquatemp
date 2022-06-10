@@ -10,9 +10,13 @@
 }
 
 .tecIOT h2 {
-  color: #212121;
   font-size: 2rem;
   line-height: 2.4rem;
+  color: #0B597D;
+}
+
+.tecIOT h3 {
+  color: #0B597D;
 }
 
 .tecIOT-text {
@@ -36,23 +40,24 @@
 @media screen and (min-width: 40rem) {
   .tecIOT {
     flex-direction: row;
-    text-align: left;
+    text-align: justify;
     padding: 6rem 0 3rem;
     justify-content: space-evenly;
   }
 
   .tecIOT-column1 {
-    width: 30%;
+    width: 35%;
     margin-right: 3rem;
     background: url('../../assets/pic09.png');
+    background-size: cover;
     border-top-right-radius: 3rem;
     border-bottom-right-radius: 3rem;
-    height: 30rem;
+    height: 25rem;
   }
 
   .tecIOT-column2 {
     margin: auto 50px auto 0;
-    width: 50%;
+    width: 40%;
   }
 
   .tecIOT-button {

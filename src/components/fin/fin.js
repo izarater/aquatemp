@@ -10,7 +10,7 @@ function Fin() {
           <h2>¿Cuál es Nuestro Fin?</h2>
           <h3>Implementar el proyecto conjuntamente con comunidades interesadas</h3>
           <p>
-          Un programa pedagógico en el marco de la cuarta revolución industrial, buscando co-construir junto a estas comunidades circundantes a las fuentes hídricas, a fin de que en la medida de pertinencia, se empoderen de estas tecnologías para ejercer un apoyo en el bienestar de la hidrología y la salud en el país
+          Un programa pedagógico en el marco de ingenierías comprometidas, buscando co-construir junto a las comunidades circundantes a las fuentes hídricas, a fin de que en la medida de pertinencia, se empoderen de estas tecnologías para ejercer un apoyo en el bienestar de la hidrología y la salud en el país
           </p> 
         </div>
         <div className="fin-button">

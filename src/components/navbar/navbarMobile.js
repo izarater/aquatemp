@@ -11,7 +11,7 @@ function NavbarMobile() {
     <>
       <header className="header">
         <div className="wrapper">
-          <h2>SaveFood</h2>
+          <h2>Aquality</h2>
           <Hamburger rounded toggled={isOpen} toggle={setOpen} color="#000" />
         </div>
         <ul className={`${isOpen ? 'nav' : 'nav hidden'}`} id="nav">

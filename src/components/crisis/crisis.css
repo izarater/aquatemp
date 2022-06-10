@@ -7,7 +7,7 @@
 
 .infoPills {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   margin: 0px 2rem;
   padding: 1.2rem 0px;
   text-align: center;
@@ -23,7 +23,7 @@
   width: auto;
   padding: 0 20px;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
 }
 
 .subtitleInfoPills {
@@ -39,11 +39,13 @@
   text-align: center;
   line-height: 70px;
   font-size: 40px;
+  color: #068C94;
 }
 #crisisSubTitle {
   text-align: center;
   line-height: 40px;
   font-size: 20px;
+  color: #0B597D;
 }
 
 #crisisText {
@@ -61,12 +63,11 @@
 @media only screen and (min-device-width: 320px) and (max-device-width: 765px) {
   .crisisContent {
     padding: 50px 20px;
-    text-align: center;
   }
 
   .crisisButtons {
     justify-content: center;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     gap: 20px;
   }
