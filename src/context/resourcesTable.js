@@ -6,7 +6,7 @@ function ContextTable() {
 
   let resources;
   resources = dataResources;
-  console.log(resources);
+  //console.log(resources);
   return (
       <div>
         <table class="table table-dark table-hover table-bordered">
@@ -18,6 +18,8 @@ function ContextTable() {
               <th scope="col">Conductividad</th>
               <th scope="col">Profundidad</th>
               <th scope="col">Turbidez</th>
+              <th scope="col">Latitud</th>
+              <th scope="col">Longitud</th>
               <th scope="col">Editar</th>
               <th scope="col">Eliminar</th>
             </tr>
@@ -33,7 +35,8 @@ function ContextTable() {
               <td>{fuente.valoracion.conductivity.slice(0,1)}</td>
               <td>{fuente.valoracion.depth.slice(0,1)}</td>
               <td>{fuente.valoracion.turbidity.slice(0,1)}</td>
-
+              <td>{fuente.coordenadas.latitud}</td>
+              <td>{fuente.coordenadas.longitud}</td>
 
             </tr>
             </tbody>
