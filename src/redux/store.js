@@ -5,13 +5,13 @@ import {composeWithDevTools} from 'redux-devtools-extension'
 // importacion de los distintos modulos del store redux
 import authReducer from './Ducks/authDuck'
 import productReducer from './Ducks/productDuck'
-import marketReducer from './Ducks/marketDuck'
+import tableReducer from './Ducks/tableDuck'
 
 const rootReducer = combineReducers({
     // Agregando los modulos al store
     authentication: authReducer,
     products: productReducer,
-    markets: marketReducer,
+    tables: tableReducer,
 
 })
 

@@ -1,12 +1,12 @@
 import Header from '../components/header/header';
 import Footer from '../components/footer/footer';
-import ContextFilter from '../context/filter.context';
+import ContextTable from '../context/resourcesTable';
 
 function Discovery() {
   return (
     <>
       <Header />
-      <ContextFilter />
+      <ContextTable />
       <Footer />
     </>
   );

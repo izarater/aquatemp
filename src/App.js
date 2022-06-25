@@ -37,7 +37,7 @@ import { listTypesActions } from './redux/Ducks/productDuck';
 //   console.log('somehting change: ', newVal, oldVal)
 // }))
 
-import { marketActions } from './redux/Ducks/marketDuck';
+import { tableActions } from './redux/Ducks/tableDuck';
 
 
 function App() {
@@ -49,7 +49,7 @@ function App() {
 
   dispatch(listRoles())
   dispatch(listTypesActions())
-  dispatch(marketActions())
+  dispatch(tableActions())
   
   // const location = useLocation()
 

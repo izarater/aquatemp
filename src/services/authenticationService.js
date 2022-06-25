@@ -8,7 +8,7 @@ export default {
     }
     try {
       
-      const result = await api.post('/authentication/signin',{
+      const result = await api.post('/waterresources',{
       
       })
     } catch (error) {
@@ -23,7 +23,7 @@ export default {
     
     try {
       
-      const result = await api.post('/authentication/signin', {
+      const result = await api.post('/waterresources', {
         username,
         password
       })
@@ -37,7 +37,7 @@ export default {
 
   getListRoles: async () => {
     try {
-      const list = await api.get('/authentication/list-roles')
+      const list = await api.get('/waterresources')
       return { list: Object.values(list.data) }
     } catch (error) {
       return { error }
@@ -47,7 +47,7 @@ export default {
   register: async (data, rol) => {
 
     try {
-      const result = await api.post(`/authentication/signup/${rol}`, data)
+      const result = await api.post('/waterresources', data)
       return result.data
     } catch (error) {
       if(error.result)
@@ -59,7 +59,7 @@ export default {
   registerWithRol: async (data, rol) => {
 
     try {
-      const result = await api.post('/authentication/signup', data)
+      const result = await api.post('/waterresources', data)
       return result.data
     } catch (error) {
       if(error.result)
@@ -70,7 +70,7 @@ export default {
 
   changePassword: async (data) => {
     try {
-      const result = await api.post('/authentication/changePassword', data)
+      const result = await api.post('/waterresources', data)
       return result.data
     } catch (error) {
       return { error }

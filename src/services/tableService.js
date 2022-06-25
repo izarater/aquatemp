@@ -5,7 +5,7 @@ import api from '../api/api';
 export default {
   productData : async () => {
     try {
-      const products = await api.get('/products')
+      const products = await api.get('/waterresources')
       //console.log(products)
       return products.data
     } catch (error) {
