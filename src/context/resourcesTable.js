@@ -1,3 +1,4 @@
+import './recourcesTable.css'
 import { useSelector } from 'react-redux';
 import React, { useState } from 'react';
 
@@ -8,7 +9,7 @@ function ContextTable() {
   resources = dataResources;
   //console.log(resources);
   return (
-      <div>
+      <div class="containerRecourcesTable">
         <table class="table table-dark table-hover table-bordered">
             <thead>
             <tr>
@@ -28,7 +29,7 @@ function ContextTable() {
           return (
             
             <tbody>
-            <tr >
+            <tr class>
               <td>{fuente.name}</td>
               <td>{fuente.valoracion.pH.slice(0,1)}</td>
               <td>{fuente.valoracion.temperature.slice(0,1)}</td>

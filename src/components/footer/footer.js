@@ -9,7 +9,7 @@ function Footer() {
     <footer className="footer">
       <div className="ft-box1">
         <h2>Aquality</h2>
-        <p className="footer">
+        <p className="footerP">
           
         </p>
         <a href="http://facebook.com">
