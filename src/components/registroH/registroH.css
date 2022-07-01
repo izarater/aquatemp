@@ -19,6 +19,9 @@
   .registroHText {
     padding: 0 2rem 1rem 2rem;
     line-height: 1.5rem;
+  }
+
+  .registroHText p{
     text-align: justify;
   }
   
