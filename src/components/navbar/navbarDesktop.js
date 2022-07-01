@@ -45,7 +45,7 @@ function NavbarDesktop() {
             </Link>
           </li>
           <li className="nav-item menum">
-            <Link className="nav-link" to="">
+            <Link className="nav-link" to="/">
               Menu
             </Link>
               <ul class="dropdown">
@@ -55,7 +55,7 @@ function NavbarDesktop() {
                 </Link>
                 </li>
                 <li className="nav-item">
-                <Link className="nav-link bold" to="/">
+                <Link className="nav-link bold" to="/map">
                   Histórico
                 </Link>
                 </li>
