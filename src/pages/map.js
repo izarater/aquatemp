@@ -3,7 +3,7 @@ import Footer from '../components/footer/footer';
 import RegistroH from '../components/registroH/registroH';
 import Visualizacion from '../components/visualizacion/visualizacion';
 import Mapa from '../components/mapa/mapa';
-import "../components/mapa/map.css";
+import "./map.css";
 
 
 function Map() {
