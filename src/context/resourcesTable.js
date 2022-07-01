@@ -1,9 +1,20 @@
 import './recourcesTable.css'
 import { useSelector } from 'react-redux';
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 
 function ContextTable() {
   const dataResources = useSelector(state => state.tables.table);
+
+  /*
+  const [time, setTime] = useState(Date.now());
+
+  useEffect(() => {
+    const interval = setInterval(() => setTime(Date.now()), 2000);
+    return () => {
+      clearInterval(interval);
+    };
+  }, []);
+  */
 
   let resources;
   resources = dataResources;
@@ -31,11 +42,11 @@ function ContextTable() {
             <tbody>
             <tr class>
               <td>{fuente.name}</td>
-              <td>{fuente.valoracion.pH.slice(0,1)}</td>
-              <td>{fuente.valoracion.temperature.slice(0,1)}</td>
-              <td>{fuente.valoracion.conductivity.slice(0,1)}</td>
-              <td>{fuente.valoracion.depth.slice(0,1)}</td>
-              <td>{fuente.valoracion.turbidity.slice(0,1)}</td>
+              <td>{fuente.valoracion.pH[fuente.valoracion.pH.length-1]}</td>
+              <td>{fuente.valoracion.temperature[fuente.valoracion.temperature.length-1]}</td>
+              <td>{fuente.valoracion.conductivity[fuente.valoracion.conductivity.length-1]}</td>
+              <td>{fuente.valoracion.depth[fuente.valoracion.depth.length-1]}</td>
+              <td>{fuente.valoracion.turbidity[fuente.valoracion.turbidity.length-1]}</td>
               <td>{fuente.coordenadas.latitud}</td>
               <td>{fuente.coordenadas.longitud}</td>
 
