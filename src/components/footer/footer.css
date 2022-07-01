@@ -11,7 +11,7 @@
 
 .footer h2,
 h3 {
-  color: #212121;
+  color: #068C94;
 }
 
 .footerP{
@@ -63,7 +63,7 @@ a:active {
 .ft-box1 img {
   padding: 0 1rem 2rem 1rem;
   width: 2em;
-  filter: opacity(0.5) drop-shadow(0 0 0 #030303);
+  filter: opacity(0.5) drop-shadow(0 0 0 #068C94);
   margin-top: -25px;
 }
 

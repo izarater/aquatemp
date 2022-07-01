@@ -26,7 +26,7 @@ function NavbarMobile() {
             </Link>
           </li>
           <Link to="/login">
-            <Button variant="primary">Sign In</Button>
+            <Button variant="primary">Hola xd</Button>
           </Link>
           <Link to="/signup">
             <Button variant="secondary">Sign Up</Button>

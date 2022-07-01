@@ -33,6 +33,7 @@ function NavbarDesktop() {
     setAnchorEl(null);
   };
 
+
   return (
     <>
       <header className="header">
@@ -44,10 +45,27 @@ function NavbarDesktop() {
             </Link>
           </li>
           <li className="nav-item menum">
-            <Link className="nav-link" to="/discovery">
+            <Link className="nav-link" to="">
               Menu
             </Link>
-          </li>
+              <ul class="dropdown">
+                <li className="nav-item">
+                <Link className="nav-link bold" to="/discovery">
+                  Monitorea las fuentes hídricas
+                </Link>
+                </li>
+                <li className="nav-item">
+                <Link className="nav-link bold" to="/">
+                  Histórico
+                </Link>
+                </li>
+                <li className="nav-item">
+                <Link className="nav-link bold" to="/">
+                  Registro de fuentes en tiempo real
+                </Link>
+                </li>
+              </ul>
+            </li>
           {
             !userData? 
             <>
