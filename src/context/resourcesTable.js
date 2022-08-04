@@ -3,7 +3,17 @@ import { useSelector } from 'react-redux';
 import React, { useState, useEffect } from 'react';
 
 function ContextTable() {
+
+ 
   const dataResources = useSelector(state => state.tables.table);
+  const [data, setData] = useState(dataResources);
+
+  useEffect(() => {
+    setData(dataResources)
+  }, [dataResources]);
+
+ /* let resources;
+  resources = dataResources; */
 
   /*
   const [time, setTime] = useState(Date.now());
@@ -13,11 +23,10 @@ function ContextTable() {
     return () => {
       clearInterval(interval);
     };
-  }, []);
+  }, []); 
   */
 
-  let resources;
-  resources = dataResources;
+
   //console.log(resources);
   return (
       <div class="containerRecourcesTable">
@@ -36,7 +45,7 @@ function ContextTable() {
               <th scope="col">Eliminar</th>
             </tr>
             </thead>
-        {resources?.map((fuente) => {
+        {dataResources?.map((fuente) => {
           return (
             
             <tbody>

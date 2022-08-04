@@ -50,7 +50,7 @@ function NavbarDesktop() {
             </Link>
               <ul class="dropdown">
                 <li className="nav-item">
-                <Link className="nav-link bold" to="/discovery">
+                <Link className="nav-link bold" to="/">
                   Monitorea las fuentes hídricas
                 </Link>
                 </li>
@@ -60,7 +60,7 @@ function NavbarDesktop() {
                 </Link>
                 </li>
                 <li className="nav-item">
-                <Link className="nav-link bold" to="/">
+                <Link className="nav-link bold" to="/discovery">
                   Registro de fuentes en tiempo real
                 </Link>
                 </li>
