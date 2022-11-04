@@ -5,18 +5,11 @@ function AboutUs2() {
     <div className="aboutus2">
       <div className="aboutus2-column1">
       <div className="aboutus2-text">
-          <h2>University Project</h2>
+          <h2>University Project Supported By Ingnova</h2>
           <p>
-          we are a software development team from the national university of 
-          Colombia made up of:<br/>
+          Since the end of 2021, Aquality has received support from Ingnova, the innovation management unit of the engineering faculty of the Universidad Nacional de Colombia, and Lab101.<br/>
            
-          <br/>
-          Isaac Zarate Reyes<br/>
-          Cristian Daniel Ramirez<br/>
-          Harold Andres Potosi<br/>
-          Rodrigo Sierra Agredo<br/>
-          <br/>
-          This project will be carried out as part of the software engineering II course
+          The first version of this project has been carried out as part of the software engineering I course, and can be found in aqualityunal.herokuapp.com
           </p>
         </div>
       </div>
@@ -24,5 +17,9 @@ function AboutUs2() {
     </div>
   );
 }
+
+//<br/>
+// Isaac Zarate Reyes<br/>
+// ....<br/>
 
 export default AboutUs2;
