@@ -11,7 +11,11 @@ function ContextTable() {
   useEffect(() => {
     setData(dataResources)
   }, [dataResources]);
-
+  /*const getData =() => {
+    dataResources = useSelector(state => state.tables.table)
+  }*/
+  setInterval(() => {
+    window.location.reload()}, 5000);
  /* let resources;
   resources = dataResources; */
 
