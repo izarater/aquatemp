@@ -33,7 +33,7 @@
 }
 .button--primary {
   color: var(--light);
-  background-color: var(red);
+  background-color: var(--orange2);
   border: 2px solid var(--orange);
 }
 .button--secondary {
