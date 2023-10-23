@@ -6,12 +6,14 @@ import {composeWithDevTools} from 'redux-devtools-extension'
 import authReducer from './Ducks/authDuck'
 import productReducer from './Ducks/productDuck'
 import tableReducer from './Ducks/tableDuck'
+import monitorReducer from './Ducks/monitorDuck'
 
 const rootReducer = combineReducers({
     // Agregando los modulos al store
     authentication: authReducer,
     products: productReducer,
     tables: tableReducer,
+    monitor: monitorReducer,
 
 })
 

@@ -8,6 +8,7 @@ import { chargeUserDataAction } from './redux/Ducks/authDuck';
 import './App.css';
 import Home from './pages/home';
 import Discovery from './pages/discovery';
+import Monitor from './pages/monitorPage';
 import RegisterPage from './pages/registerPage';
 import LoginPage from './pages/loginPage';
 import AboutUsPage from './pages/aboutUsPage';
@@ -39,6 +40,7 @@ import { listTypesActions } from './redux/Ducks/productDuck';
 // }))
 
 import { tableActions } from './redux/Ducks/tableDuck';
+import { monitorActions } from './redux/Ducks/monitorDuck';
 
 
 function App() {
@@ -51,6 +53,7 @@ function App() {
   dispatch(listRoles())
   dispatch(listTypesActions())
   dispatch(tableActions())
+  dispatch(monitorActions())
   
   // const location = useLocation()
 
@@ -87,6 +90,7 @@ function App() {
     <Router>
       <Switch>
         <Route exact path="/" component={Home} />
+        <Route path="/monitor" component={Monitor} />
         <Route path="/discovery" component={Discovery} />
         <Route path="/map" component={Map} />
         <Route path="/signup" component={RegisterPage} />

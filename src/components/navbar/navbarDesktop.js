@@ -50,7 +50,7 @@ function NavbarDesktop() {
             </Link>
               <ul class="dropdown">
                 <li className="nav-item">
-                <Link className="nav-link bold" to="/">
+                <Link className="nav-link bold" to="/monitor">
                   Monitorea las fuentes hídricas
                 </Link>
                 </li>

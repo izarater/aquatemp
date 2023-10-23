@@ -1,0 +1,83 @@
+table{
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.5rem;
+    font-family: sans-serif;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+  
+
+table thead tr{
+    background-color: #0B597D;
+    color: #ffffff;
+}
+
+table tr, table th, table tr td{
+    text-align: center;
+    padding: 6px 7px;
+}
+
+table tbody tr td {
+    border-bottom: thin solid #dddddd;
+
+}
+
+table tbody tr td:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.containerRecourcesTable{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.excel-download-btn {
+    background-color: #008000; /* Color verde característico de Excel */
+    color: #ffffff; /* Texto en blanco */
+    border: none; /* Sin borde */
+    padding: 10px 20px; /* Espaciado interior */
+    font-size: 16px; /* Tamaño de fuente */
+    cursor: pointer; /* Cambiar cursor al pasar por encima del botón */
+    border-radius: 5px; /* Bordes redondeados */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Sombra para dar un efecto elevado */
+}
+  
+.excel-download-btn:hover {
+background-color: #006400; /* Color verde oscuro al pasar por encima del botón */
+}
+
+@media (max-width: 480px){
+    .btn.btn-danger {
+        width: 4rem;
+        height: 1.5rem;
+        text-align: center;
+        font-size: 0.75rem; 
+    }
+}
+
+
+@media (min-width: 460px){
+    table{
+        font-size: 0.7rem;
+    }
+}
+
+@media (min-width: 530px){
+    table{
+        font-size: 0.62rem;
+    }
+
+    table tr, table th, table tr td{
+        padding: 0.7rem 0.7rem;
+    }
+
+    
+}
+
+@media (min-width: 720px){
+    table{
+        font-size: 0.9em;
+    }
+}

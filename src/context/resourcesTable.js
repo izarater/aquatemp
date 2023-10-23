@@ -15,7 +15,7 @@ function ContextTable() {
     dataResources = useSelector(state => state.tables.table)
   }*/
   setInterval(() => {
-    window.location.reload()}, 5000);
+    window.location.reload()}, 12000);
  /* let resources;
   resources = dataResources; */
 
