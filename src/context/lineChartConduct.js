@@ -48,7 +48,7 @@ export default function LinesChart() {
         setData(dataResources);
     
         setInterval(() => {
-            window.location.reload()}, 420000);
+            window.location.reload()}, 5000);
 
         var conductData = []
         dataResources?.map((fuente) => {

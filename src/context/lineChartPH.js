@@ -64,11 +64,11 @@ export default function LinesChart() {
     setDias(diasData);
 
     var cantidad = phData.length;
-    var phDataSlice = phData.slice(cantidad - 15, cantidad);
+    var phDataSlice = phData.slice(cantidad, cantidad);
     setPh2(phDataSlice);
 
     var cantidad2 = diasData.length;
-    var diasDataSlice = diasData.slice(cantidad2 - 15, cantidad2);
+    var diasDataSlice = diasData.slice(cantidad2, cantidad2);
     setDias2(diasDataSlice);
 
   }, [dataResources]);
