@@ -67,11 +67,11 @@ export default function LinesChart() {
         setDias(diasData);
 
         var cantidad = levelData.length;
-        var levelDataSlice = levelData.slice(cantidad - 15, cantidad);
+        var levelDataSlice = levelData.slice(cantidad - cantidad, cantidad);
         setLevel2(levelDataSlice);
 
         var cantidad2 = diasData.length;
-        var diasDataSlice = diasData.slice(cantidad2 - 15, cantidad2);
+        var diasDataSlice = diasData.slice(cantidad2 - cantidad2, cantidad2);
         setDias2(diasDataSlice);
 
     }, [dataResources]);

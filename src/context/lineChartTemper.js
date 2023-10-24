@@ -67,11 +67,11 @@ export default function LinesChart() {
     setDias(diasData);
 
     var cantidad = temperData.length;
-    var temperDataSlice = temperData.slice(cantidad - 15, cantidad);
+    var temperDataSlice = temperData.slice(cantidad - cantidad, cantidad);
     setTemper2(temperDataSlice);
 
     var cantidad2 = diasData.length;
-    var diasDataSlice = diasData.slice(cantidad2 - 15, cantidad2);
+    var diasDataSlice = diasData.slice(cantidad2 - cantidad2, cantidad2);
     setDias2(diasDataSlice);
 
   }, [dataResources]);
