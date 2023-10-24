@@ -37,7 +37,7 @@ var misoptions = {
 };
 
 export default function LinesChart() {
-  const dataResources = useSelector(state => state.tables.table);
+  const dataResources = useSelector(state => state.monitor.monitor);
   const [data, setData] = useState(dataResources);
   const [ph2, setPh2] = useState([]);
   const [dias2, setDias2] = useState([]);
