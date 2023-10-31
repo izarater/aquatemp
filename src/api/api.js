@@ -2,5 +2,5 @@ import axios from 'axios'
 
 
 export default axios.create({
-  baseURL : 'http://aqualiot.adb7cxh0cxhtgcdy.westus.azurecontainer.io:4000/api'
+  baseURL : 'https://aqualiot-server-dev-rfhe.3.us-1.fl0.io/api'
 })
